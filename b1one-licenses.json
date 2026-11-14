@@ -44,7 +44,10 @@
       "created": "2026-11-14",
       "notes": "",
       "maxDevices": 3,
-      "devices": []
+      "devices": [
+        "bx-mwgq9pfj-7rk4o9qyw"
+      ],
+      "lastDeviceAt": "2026-11-14T18:17:08.168Z"
     }
   }
 }
