@@ -22,11 +22,7 @@
       "maxDevices": 3,
       "expires": "2027-12-31",
       "created": "2026-07-25",
-      "notes": "Licenza demo — non distribuire",
-      "devices": [
-        "bx-test-deploy"
-      ],
-      "lastDeviceAt": "2026-11-14T17:59:57.194Z"
+      "notes": "Licenza demo — non distribuire"
     }
   }
 }
