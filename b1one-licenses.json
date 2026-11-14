@@ -33,6 +33,18 @@
       "expires": null,
       "created": "2026-11-14",
       "notes": ""
+    },
+    "B1ONE-6VJP-E925-N9PU": {
+      "studio": "La Scala",
+      "owner": "Vincenzo la Scala",
+      "email": "",
+      "active": true,
+      "type": "pro",
+      "expires": "2027-11-14",
+      "created": "2026-11-14",
+      "notes": "",
+      "maxDevices": 3,
+      "devices": []
     }
   }
 }
