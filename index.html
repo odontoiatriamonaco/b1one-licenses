@@ -560,7 +560,12 @@ function ghFetch(method, body) {
     }
   };
   if (body) opts.body = JSON.stringify(body);
-  return fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_FILE}`, opts);
+  // Le GET devono bypassare la cache del browser: dopo un'auto-registrazione
+  // via API una risposta cache-ata mostrerebbe ancora "Nessun PC".
+  opts.cache = 'no-store';
+  let url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_FILE}`;
+  if (opts.method === 'GET') url += `?t=${Date.now()}`;
+  return fetch(url, opts);
 }
 
 async function loadData() {
