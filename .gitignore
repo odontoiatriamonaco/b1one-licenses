@@ -1,0 +1,21 @@
+# Dipendenze
+node_modules/
+
+# Vercel
+.vercel
+
+# Variabili d'ambiente — il GITHUB_TOKEN va impostato nel pannello Vercel,
+# mai committato nel repo
+.env
+.env.*
+!.env.example
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,28 @@
+{
+  "_info": "Protocollo B1ONE — Registro Licenze. Modificare solo tramite il License Manager (index.html).",
+  "_updated": "2026-07-25",
+  "_version": "1.0",
+  "licenses": {
+    "B1ONE-MONA-XXXX-0001": {
+      "studio": "Studio Monaco",
+      "owner": "Maurizio Monaco",
+      "email": "odontoiatria.monaco@gmail.com",
+      "active": true,
+      "type": "lifetime",
+      "expires": null,
+      "created": "2026-07-25",
+      "notes": "Licenza sviluppatore — accesso perpetuo illimitato"
+    },
+    "B1ONE-DEMO-0000-0000": {
+      "studio": "Studio Demo",
+      "owner": "Demo User",
+      "email": "",
+      "active": true,
+      "type": "pro",
+      "maxDevices": 3,
+      "expires": "2027-12-31",
+      "created": "2026-07-25",
+      "notes": "Licenza demo — non distribuire"
+    }
+  }
+}
