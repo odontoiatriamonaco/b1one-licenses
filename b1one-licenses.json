@@ -1,6 +1,6 @@
 {
   "_info": "Protocollo B1ONE ÃÂ¢ÃÂÃÂ Registro Licenze. Modificare solo tramite il License Manager (index.html).",
-  "_updated": "2026-11-16",
+  "_updated": "2026-11-18",
   "_version": "1.0",
   "licenses": {
     "B1ONE-MONA-XXXX-0001": {
@@ -45,9 +45,10 @@
       "notes": "",
       "maxDevices": 3,
       "devices": [
-        "bx-mwjbzjuy-3qyq0r5ym"
+        "bx-mwjbzjuy-3qyq0r5ym",
+        "bx-mwm5f15y-qsaun2754"
       ],
-      "lastDeviceAt": "2026-11-16T14:00:38.261Z"
+      "lastDeviceAt": "2026-11-18T13:20:01.762Z"
     }
   }
 }
